@@ -7,21 +7,29 @@
   <title>Document</title>
   <style>
       .title{
-        color: aqua;
+        color: rgb(52, 165, 77);
         background : linear-gradient(right,skyblue,pink);
         height: 50px;
         line-height: 50px;
+        font-size: 50PX;
         text-align: center;
       }
-      .bg {
+      .bg{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
         margin-top: 50px;
+      }
+      .bg>img {
         width: 100%;
-        background-image: url("./person.png");
+        height: 100%;
       }
   </style>
 </head>
 <body>
   <div class="title">JamesKun</div>
-  <div class="bg"></div>
+  <div class="bg">
+    <img src="./person.png" alt="">
+  </div>
 </body>
 </html>
